@@ -70,8 +70,8 @@
     "./build/css/bootstrap-tour.css"
   ],
   "scripts": {
-    "run": "grunt run",
-    "build": "grunt build",
+    "run": "node init && grunt run",
+    "build": "node init && grunt build",
     "test": "grunt test"
   }
 }
